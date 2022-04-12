@@ -10,6 +10,7 @@ __license__ = "CC0-1.0"
 import sys
 
 def main(file):
+    # Open CSV File for Parsing
     with open(file, 'r') as f:
         data = f.read()
 
@@ -61,7 +62,6 @@ if __name__ == "__main__":
         file = sys.argv[1]
     except IndexError:
         # Except on no args taken; inform user of correct usage
-        print('Usage: python3 data-normalizer.py <file>')
-        sys.exit(1)
+        sys.exit("Usage: python3 data_normalizer.py <file.csv>")
 
     main(file)
