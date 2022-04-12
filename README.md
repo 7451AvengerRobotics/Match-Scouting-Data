@@ -1,5 +1,5 @@
 # Match Scouting Data
-This repository contains all of 7451 AvengerRobotics' raw match scouting data from the year 2022 with the intention of adding additional data in future years.
+All of 7451 AvengerRobotics' raw match scouting data 2022-present.
 
 ## Accessing Data
 The data in this repository can be viewed by navigating the directories under the "View code" button on mobile or right above this README file on desktop.
